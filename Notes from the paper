@@ -10,12 +10,13 @@ Conditions necessary for hypothesis to be supported:
   5. Mating system allows substantial fraction of males to obtain mate
   6. Economical method of sex-ratio manipulation exists
   
-BME = banded males, unbanded females
-BFE = banded females, unbanded males
+BME = banded males, unbanded females (duration 22 months)
+BFE = banded females, unbanded males (duration 10 months banded, additional 5 months unbanded)
 
 Previous studies:
-  - males prefer females with black bands
-  - females prefer males with red bands
+  - males prefer females with black bands (and avoid blue banded females)
+  - females prefer males with red bands (and avoid green banded males)
+  - both sexes treat orange bands as unbanded bird (intermediate attractiveness)
 
 Statistics:
   - Ratio of sons to entire clutch size of males with different color bands (BME) [Goodman and Kruskal, Fisher 2 x 3 Exact post hoc]
