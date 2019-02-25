@@ -31,13 +31,18 @@ Author A^1^
 
 *3.1.	Please list each research question included in this study.*
 
-1. 
+1. What determines the sex ratio of offspring production? 
 
 ### 4.	Hypotheses
 
 *4.1.	For each of the research questions listed in the previous section, provide one or multiple specific and testable hypotheses. Please state if the hypotheses are directional or non-directional. If directional, state the direction. A predicted effect is also appropriate here.*
 
-1. 
+1. Parents increase reproductive success by biasing the sex ratio of their clutches to favor the offspring that they expect to be more attractive.
+    - Directional --> More offspring of the same sex as the more attractive parent
+2. The sex ratio of a clutch varies with parental age and experience.
+    - Non-directional
+3. The sex ratio of a clutch varies with parental ability to raise daughters and/or sons.
+    - Non-directional
  
 ## Sampling Plan
 
