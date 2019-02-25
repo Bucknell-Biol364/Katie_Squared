@@ -1,0 +1,87 @@
+Statistics:
+  - Ratio of sons to entire clutch size of males with different color bands (BME) [Goodman and Kruskal, Fisher 2 x 3 Exact post hoc]
+  - Ratio of sons to entire clutch size of females with different color bands (BFE) [Goodman and Kruskal, Fisher 2 x 3 Exact post hoc]
+  - Determining if primary or secondary manipulation of sex ratio occurs [chi-square]
+  - Determining if parents preferentially provision more attractive offspring [ANOVA, Duncan's multiple range test post hoc]
+  - Determining if chicks that died in clutches were ones that supported the sex ratio hypothesis... ?
+  
+Goodman and Kruskal's gamma 
+https://www.statisticshowto.datasciencecentral.com/gamma-coefficient-goodman-kruskal/ 
+https://statistics.laerd.com/spss-tutorials/goodman-and-kruskals-gamma-using-spss-statistics.php
+  - Non-parametric test to determine how similarly data ranked by criteria A is to the same data ranked by criteria B 
+  - gamma value = proportion of ranked pairs that are in agreement 
+      - range = 1 (perfect positive association) to -1 (perfect negative association), with 0 being no association
+      gamma = Nc - Nd
+              -------
+              Nc + Nd
+         Nc = total number of pairs that rank the same
+         Nd = total number of pairs that rank differently
+  - Useful for when there's tied data (where the values in the pair are equal to each other) becaues it excludes them or when there's 
+    outliers becaues those do not have a large effect
+  - Calculated for ordered data that is either continuous or discrete
+  ASSUMPTIONS:
+      - Data is measured on an ordinal scale (is ordered)
+      - Monotonic relationship between the variables, such that when one increases, the other also either increases or decreases
+  R CODE:
+      - GoodmanKruskalGamma(x, y = NULL, conf.level = NA, ...)
+  BURLEY PAPER:
+      - Different color bands are ranked so they have an order
+  
+Fisher 2 x 3 Exact
+http://www.biostathandbook.com/fishers.html
+http://mathworld.wolfram.com/FishersExactTest.html
+  - Used to determine if the proportion of nominal variable A is different depending on the value of nominal variable B --> are
+    there non-random associations between two categorical variables?
+  - Can be used with a small sample size --> n < 1000, more accurate than chi-square for smaller sample sizes
+  - Null hypothesis = the proportions of variable A are the same for different values of variable B
+  ASSUMPTIONS:
+      - Individual observations are independent
+      - Fixed row and column totals 
+  R CODE:
+  http://rcompanion.org/rcompanion/b_07.html
+      - rcompanion package
+  BURLEY PAPER:
+      - Runs a 2x3 test, when the default ones are 2x2
+      - Possible to run Fisher's exact test for each of the pairwise comparisons then correct for multiple comparisons using
+        Bonferroni
+        
+Chi Square
+https://www.spss-tutorials.com/chi-square-independence-test/
+https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/chi-square/
+  - Used to determine if two categorical variables are related
+  - chi square statistic = how different the observed counts are from the counts that would be expected if the null hypothesis was
+    true (that there was no relationship between the two variables)
+      - low value = high correlation
+  - Null hypothesis = two categorical variables are independent of each other
+  ASSUMPTIONS:
+      - Samples are independent and random
+      - Expected frequency count for each variable is at least 5
+  R CODE:
+      - chisq.test(table)
+  BURLEY PAPER:
+      - Double check sample sizes? Mentions that they were small
+      
+ANOVA
+https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/hypothesis-testing/anova/
+  - Used to see if there is a significant difference between two groups
+      - One-way = one independent variable with two levels
+      - Two-way = two independent variables with multiple levels
+  - One-way ANOVA -- used to see if there is a difference between the means of two independent groups
+      - Null hypothesis = the means of the two groups are equal
+      - Limitation = determines whether there is a difference but not how they are different
+  - Two-way ANOVA -- used when there is a quantitative response variable and two categorical explanatory variables
+      - Null hypothesis = the means of the two groups are equal 
+      ASSUMPTIONS:
+        - Normal distribution
+        - Independent samples
+        - Equal population variances
+        - Equal sample sizes
+
+Duncan's Multiple Range Test
+https://www.statisticshowto.datasciencecentral.com/duncans-multiple-range-test/
+  - Post hoc test used after an ANOVA to find out which means differ from each other
+  - Better for when there are larger differences between the means
+  ASSUMPTIONS:
+      - Have a significant result from an ANOVA
+  
+  
