@@ -23,9 +23,9 @@ knitr::opts_chunk$set(echo = F)
 
 ### 2.	Authorship
 
-Author A^1^ 
+Katie Edwards and Katie Bille
 
-^1^ Affiliation A
+Bucknell University
 
 ### 3.	Research Questions 
 
@@ -48,9 +48,14 @@ Author A^1^
 
 In this section we will ask you to describe how you plan to collect samples, as well as the number of samples you plan to collect and your rationale for this decision. Please keep in mind that the data described in this section should be the actual data used for analysis, so if you are using a subset of a larger dataset, please describe the subset that will actually be used in your study.
 
+
+
+
 ### 5.	Existing data
 
 *5.1.	Preregistration is designed to make clear the distinction between confirmatory tests, specified prior to seeing the data, and exploratory analyses conducted after observing the data. Therefore, creating a research plan in which existing data will be used presents unique challenges. Please select the description that best describes your situation. Please do not hesitate to contact us if you have questions about how to answer this question (prereg@cos.io).*
+
+We will be using existing data from Burley 1986. 
 
 - Registration prior to creation of data: As of the date of submission of this research plan for preregistration, the data have not yet been collected, created, or realized. 
 
@@ -66,7 +71,7 @@ In this section we will ask you to describe how you plan to collect samples, as 
 
 *6.1.	If you indicate that you will be using some data that already exist in this study, please describe the steps you have taken to assure that you are unaware of any patterns or summary statistics in the data. This may include an explanation of how access to the data has been limited, who has observed the data, or how you have avoided observing any analysis of the specific data you will use in your study. The purpose of this question is to assure that the line between confirmatory and exploratory analysis is clear.*  
 
-
+Data is from Burley 1986 paper. However, some information was not available, which brings into question our ability to reproduce the analyses.
 
 ### 7.	Data collection procedures.
 
@@ -96,23 +101,36 @@ In this section we will ask you to describe how you plan to collect samples, as 
 
 In this section you can describe all variables (both manipulated and measured variables) that will later be used in your confirmatory analysis plan. In your analysis plan, you will have the opportunity to describe how each variable will be used. If you have variables that you are measuring for exploratory analyses, you are not required to list them, though you are permitted to do so.
 
+Manipulated variables:
+  - Band color on males and females
+
+Measured variables:
+  - Number of sons and daughters per clutch --> used to calculate sex ratio
+  - Brood size --> used to calculate sex ratio
+  - Age/experience of the parents
+  - Survival of parents and chicks
+
 ### 11.	Manipulated variables
 
 *11.1.	Describe all variables you plan to manipulate and the levels or treatment arms of each variable. For observational studies and meta-analyses, simply state that this is not applicable.*
 
-
+- Band color on males --> red, orange, green
+- Band color on females --> black, orange, blue
 
 ### 12.	Measured variables
 
 *12.1.	Describe each variable that you will measure. This will include outcome measures, as well as any predictors or covariates that you will measure. You do not need to include any variables that you plan on collecting if they are not going to be included in the confirmatory analyses of this study.*
 
-
+- Number of sons per clutch
+- Number of daughters per clutch
+- Age/experience of the parents
+- Survival of parents and chicks
 
 ### 13.	Indices
 
 *13.1.	If any measurements are going to be combined into an index (or even a mean), what measures will you use and how will they be combined? Include either a formula or a precise description of your method. If you are using a more complicated statistical method to combine measures (e.g. a factor analysis), you can note that here but describe the exact method in the analysis plan section.*
 
-
+- Sex ratio of clutches = number of males / total number of chicks
 
 ## Design Plan
 
@@ -120,13 +138,9 @@ In this section, you will be asked to describe the overall design of your study.
 
 ### 14.	Study type
 
--	Experiment - A researcher randomly assigns treatments to study subjects, this includes field or lab experiments. This is also known as an intervention experiment and includes randomized controlled trials.
+Re-analysis of data from an experiment..
 
--	Observational Study - Data is collected from study subjects that are not randomly assigned to a treatment. This includes surveys, natural experiments, and regression discontinuity designs.
-
--	Meta-Analysis - A systematic review of published studies.
-
--	Other - please explain.
+Experiment - A researcher randomly assigns treatments to study subjects, this includes field or lab experiments. This is also known as an intervention experiment and includes randomized controlled trials.
 
 
 ### 15.	Blinding
