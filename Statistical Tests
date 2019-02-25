@@ -46,4 +46,23 @@ http://mathworld.wolfram.com/FishersExactTest.html
         Bonferroni
         
 Chi Square
+https://www.spss-tutorials.com/chi-square-independence-test/
+https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/chi-square/
+  - Used to determine if two categorical variables are related
+  - chi square statistic = how different the observed counts are from the counts that would be expected if the null hypothesis was
+    true (that there was no relationship between the two variables)
+      - low value = high correlation
+  - Null hypothesis = two categorical variables are independent of each other
+  ASSUMPTIONS:
+      - Samples are independent and random
+      - Expected frequency count for each variable is at least 5
+  R CODE:
+      - chisq.test(table)
+  BURLEY PAPER:
+      - Double check sample sizes? Mentions that they were small
+      
+ANOVA
+
+Duncan's Multiple Range
+  
   
