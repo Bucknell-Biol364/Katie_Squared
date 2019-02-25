@@ -1,0 +1,48 @@
+Hypothesis: parents bias the sex ratio of their clutches to produce more of the offspring that they expect to be more attractive
+  Alt hypothesis 1: sex ratio of clutches change with parental age and experience
+  Alt hypothesis 2: sex ratio of clutches change with parental ability to raise daughters/sons
+  
+Conditions necessary for hypothesis to be supported:
+  1. Heritable variation in traits conferring attractiveness
+  2. Expression of traits is sex-limited
+  3. Relative attractiveness affects reproductive success
+  4. Preference for attractive trait is common to some fraction of population
+  5. Mating system allows substantial fraction of males to obtain mate
+  6. Economical method of sex-ratio manipulation exists
+  
+BME = banded males, unbanded females (duration 22 months)
+BFE = banded females, unbanded males (duration 10 months banded, additional 5 months unbanded)
+
+Previous studies:
+  - males prefer females with black bands (and avoid blue banded females)
+  - females prefer males with red bands (and avoid green banded males)
+  - both sexes treat orange bands as unbanded bird (intermediate attractiveness)
+
+Statistics:
+  - Ratio of sons to entire clutch size of males with different color bands (BME) [Goodman and Kruskal, Fisher 2 x 3 Exact post hoc]
+  - Ratio of sons to entire clutch size of females with different color bands (BFE) [Goodman and Kruskal, Fisher 2 x 3 Exact post hoc]
+  - Determining if primary or secondary manipulation of sex ratio occurs [chi-square]
+  - Determining if parents preferentially provision more attractive offspring [ANOVA, Duncan's multiple range test post hoc]
+  - Determining if chicks that died in clutches were ones that supported the sex ratio hypothesis... ?
+
+
+Figures:
+Figure Number	
+Reproducible?	
+Notes
+
+1	
+partially.	
+Have the average sex ratio of each band color but do not have information of individual cohorts
+
+2	
+no.	
+can get total offspring at each time interval but to not have sex of offspring at each time
+
+3	
+no.	
+can get total offspring at each time interval but to not have sex of offspring at each time
+
+4	
+partially.	
+only data for BME is given and even then data is not exact as numbers have to be estimated from figure    data not listed elsewhere in paper or tables

@@ -1,0 +1,14 @@
+Notes:																
+This data represents the aggregate sex ratios of the MBE and FBE. Male banded experiment was run for 22 months and Female banded experiment was run for 15 months (with data additionally analyzed at 10 months)																
+Red male additionally broken into polygnists and monogomous	(these numbers should be treated as a subset of "red male" in BME not as additional group with "red male")															
+																
+Questions:																
+Where is the data for the individual cohorts? 																
+What to do with mono and poly red banded males? 																
+																
+pc_###	perfect clutch data															
+bfl_###	before fledging data															
+afl_###	after fledging data															
+#_peakwt_bf	peak weight before fledging															
+m_fbs_#	number of male offspring in final brood size of # (4-1)															
+f_fbs_#	number of female offspring in final brood size of # (4-1)															
