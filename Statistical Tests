@@ -62,7 +62,26 @@ https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/ch
       - Double check sample sizes? Mentions that they were small
       
 ANOVA
+https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/hypothesis-testing/anova/
+  - Used to see if there is a significant difference between two groups
+      - One-way = one independent variable with two levels
+      - Two-way = two independent variables with multiple levels
+  - One-way ANOVA -- used to see if there is a difference between the means of two independent groups
+      - Null hypothesis = the means of the two groups are equal
+      - Limitation = determines whether there is a difference but not how they are different
+  - Two-way ANOVA -- used when there is a quantitative response variable and two categorical explanatory variables
+      - Null hypothesis = the means of the two groups are equal 
+      ASSUMPTIONS:
+        - Normal distribution
+        - Independent samples
+        - Equal population variances
+        - Equal sample sizes
 
-Duncan's Multiple Range
+Duncan's Multiple Range Test
+https://www.statisticshowto.datasciencecentral.com/duncans-multiple-range-test/
+  - Post hoc test used after an ANOVA to find out which means differ from each other
+  - Better for when there are larger differences between the means
+  ASSUMPTIONS:
+      - Have a significant result from an ANOVA
   
   
