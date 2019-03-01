@@ -23,9 +23,9 @@ Sex-Ratio Manipulation in Color-Banded Populations of Zebra Finches
 
 ### 2.	Authorship
 
-Katie Edwards and Katie Bille + Burley
+Nancy Burley
 
-Bucknell University
+University of Illinois Urbana-Champaign
 
 ### 3.	Research Questions 
 
@@ -59,15 +59,13 @@ Tracked survivorship of chicks
 
 *5.1.	Preregistration is designed to make clear the distinction between confirmatory tests, specified prior to seeing the data, and exploratory analyses conducted after observing the data. Therefore, creating a research plan in which existing data will be used presents unique challenges. Please select the description that best describes your situation. Please do not hesitate to contact us if you have questions about how to answer this question (prereg@cos.io).*
 
-We will be using existing data from Burley 1986. 
-
--	Registration following analysis of the data: As of the date of submission, you have accessed and analyzed some of the data relevant to the research plan. This includes preliminary analysis of variables, calculation of descriptive statistics, and observation of data distributions. Studies that fall into this category are ineligible for the Pre-Reg Challenge. Please contact us (prereg@cos.io) and we will be happy to help you.
+- Registration prior to creation of data: As of the date of submission of this research plan for preregistration, the data have not yet been collected, created, or realized. 
  
 ### 6.	Explanation of existing data
 
 *6.1.	If you indicate that you will be using some data that already exist in this study, please describe the steps you have taken to assure that you are unaware of any patterns or summary statistics in the data. This may include an explanation of how access to the data has been limited, who has observed the data, or how you have avoided observing any analysis of the specific data you will use in your study. The purpose of this question is to assure that the line between confirmatory and exploratory analysis is clear.*  
 
-Data is from Burley 1986 paper. However, some information (like the age of the source populations, individual cohort information) was not available, which brings into question our ability to accurately reproduce the analyses.
+n/a
 
 ### 7.	Data collection procedures.
 
@@ -88,23 +86,25 @@ Chicks are weighed pre- and post-fledging
 
 *8.1.	Describe the sample size of your study. How many units will be analyzed in the study? This could be the number of people, birds, classrooms, plots, interactions, or countries included. If the units are not individuals, then describe the size requirements for each unit. If you are using a clustered or multilevel design, how many units are you collecting at each level of the analysis?*
 
-
+No details on the number of individuals of the non-banded sex released into the aviary
+Banded Male Experiment -- 26 males (9 red, 9 green, 8 orange)
+Banded Female Experiment -- 32 females (11 orange, 11 blue, 10 black)
 
 ### 9.	Sample size rationale
 
 *9.1.	This could include a power analysis or an arbitrary constraint such as time, money, or personnel.*
 
-
+Good question. Likely limited by budget and space 
 
 ### 10.	Stopping rule
 
 *10.1.	If your data collection procedures do not give you full control over your exact sample size, specify how you will decide when to terminate your data collection.* 
 
- 
+n/a
 
 ## Variables
 
-In this section you can describe all variables (both manipulated and measured variables) that will later be used in your confirmatory analysis plan. In your analysis plan, you will have the opportunity to describe how each variable will be used. If you have variables that you are measuring for exploratory analyses, you are not required to list them, though you are permitted to do so.
+*In this section you can describe all variables (both manipulated and measured variables) that will later be used in your confirmatory analysis plan. In your analysis plan, you will have the opportunity to describe how each variable will be used. If you have variables that you are measuring for exploratory analyses, you are not required to list them, though you are permitted to do so.*
 
 Manipulated variables:
   - Band color on males and females
@@ -131,6 +131,7 @@ Measured variables:
 - Number of daughters per clutch
 - Age/experience of the parents
 - Survival of parents and chicks
+- Pre- and post-fledging weights of chicks
 
 ### 13.	Indices
 
@@ -140,11 +141,22 @@ Measured variables:
 
 ## Design Plan
 
-In this section, you will be asked to describe the overall design of your study. Remember that this research plan is designed to register a single study, so if you have multiple experimental designs, please complete a separate preregistration.
+*In this section, you will be asked to describe the overall design of your study. Remember that this research plan is designed to register a single study, so if you have multiple experimental designs, please complete a separate preregistration.*
+
+Banded Male Experiment
+- Release 26 males with three different band colors in the aviary
+    - Males can acclimate for a week in the aviary alone
+- Release females --> allowed to breed freely for 22 months
+- Data collected and birds monitored
+
+Banded Female Experiment
+- Released 32 females with three different band colors in the aviary
+    - Females can acclimate for a week in the aviary alone
+- Release males --> allowed to breed freely for 10 months
+- At 10 months, bands were removed
+- Data collection and monitoring occured throughout and continued after band removal for 5 additional months
 
 ### 14.	Study type
-
-Re-analysis of data from an experiment..
 
 Experiment - A researcher randomly assigns treatments to study subjects, this includes field or lab experiments. This is also known as an intervention experiment and includes randomized controlled trials.
 
@@ -153,25 +165,20 @@ Experiment - A researcher randomly assigns treatments to study subjects, this in
 
 *15.1.	Blinding describes who is aware of the experimental manipulations within a study. Mark all that apply.*
 
--	No blinding is involved in this study.
+No blinding occurred
 
--	For studies that involve human subjects, they will not know the treatment group to which they have been assigned.
-
--	Personnel who interact directly with the study subjects (either human or non-human subjects) will not be aware of the assigned treatments.
-
--	Personnel who analyze the data collected from the study are not aware of the treatment applied to any given group.
 
 ### 16.	Study design
 
 *16.1.	Describe your study design. Examples include two-group, factorial, randomized block, and repeated measures. Is it a between (unpaired), within-subject (paired), or mixed design? Describe any counterbalancing required. Typical study designs for observation studies include cohort, cross sectional, and case-control studies.*
 
-
+Unpaired
 
 ### 17.	Randomization
 
 *17.1.	If you are doing a randomized study, how will you randomize, and at what level?*
 
-
+Birds randomly placed in band color groups, were freely allowed to choose their own mates
 
 ## Analysis Plan
 
@@ -183,31 +190,35 @@ A confirmatory analysis plan must state up front which variables are predictors 
 
 *18.1.	What statistical model will you use to test each hypothesis? Please include the type of model (e.g. ANOVA, multiple regression, SEM, etc) and the specification of the model (this includes each variable that will be included as predictors, outcomes, or covariates). Please specify any interactions that will be tested and remember that any test not included here must be noted as an exploratory test in your final article.*
 
-
+  - Ratio of sons to entire clutch size of males with different color bands (BME) [Goodman and Kruskal, Fisher 2 x 3 Exact post hoc]
+  - Ratio of sons to entire clutch size of females with different color bands (BFE) [Goodman and Kruskal, Fisher 2 x 3 Exact post hoc]
+  - Determining if primary or secondary manipulation of sex ratio occurs [chi-square]
+  - Determining if parents preferentially provision more attractive offspring [ANOVA, Duncan's multiple range test post hoc]
 
 ### 19.	Transformations
 
 *19.1.	If you plan on transforming, centering, recoding the data, or will require a coding scheme for categorical variables, please describe that process.*
 
-
+No data was transformed
 
 ### 20.	Follow-up analyses
 
 *20.1.	If not specified previously, will you be conducting any confirmatory analyses to follow up on effects in your statistical model, such as subgroup analyses, pairwise or complex contrasts, or follow-up tests from interactions. Remember that any analyses not specified in this research plan must be noted as exploratory.*
 
-
+No follow up analyses
 
 ### 21.	Inference criteria
 
 *21.1.	What criteria will you use to make inferences? Please describe the information you will use (e.g. p-values, Bayes factors, specific model fit indices), as well as cut-off criterion, where appropriate. Will you be using one or two tailed tests for each of your analyses? If you are comparing multiple conditions or testing multiple hypotheses, will you account for this?*
 
-
+p-value = 0.05
+Two-tailed tests used for the analyses to be conservative
 
 ### 22.	Data exclusion
 
 *22.1.	How will you determine what data or samples, if any, to exclude from your analyses? How will outliers be handled?*
 
-  
+Birds that laid consequtive clutches excluded from the analyses when calculating clutch size and brood size analyses. 
 
 ### 23.	Missing data
 
