@@ -1,6 +1,6 @@
 ---
 title: ""
-author: ""
+author: "Katie Edwards and Katie Billie"
 date: ""
 output: pdf_document
 ---
@@ -19,11 +19,11 @@ knitr::opts_chunk$set(echo = F)
 
 ### 1.	Title 
 
-
+Sex-Ratio Manipulation in Color-Banded Populations of Zebra Finches
 
 ### 2.	Authorship
 
-Katie Edwards and Katie Bille
+Katie Edwards and Katie Bille + Burley
 
 Bucknell University
 
@@ -46,10 +46,14 @@ Bucknell University
  
 ## Sampling Plan
 
-In this section we will ask you to describe how you plan to collect samples, as well as the number of samples you plan to collect and your rationale for this decision. Please keep in mind that the data described in this section should be the actual data used for analysis, so if you are using a subset of a larger dataset, please describe the subset that will actually be used in your study.
+*In this section we will ask you to describe how you plan to collect samples, as well as the number of samples you plan to collect and your rationale for this decision. Please keep in mind that the data described in this section should be the actual data used for analysis, so if you are using a subset of a larger dataset, please describe the subset that will actually be used in your study.*
 
+Captive population of male and female wild type zebra finches from outcrossed domesticated stocks. Males from Burley's private breeding colony in her lab, females obtained as sub-adults from an undisclosed commercial source. In the first 6 months of the experiment, replaced any adults that died.
 
-
+Morphologically sex chicks 8 weeks post-fledging
+Checked nest daily for eggs/hatchlings and tagged newly hatched chicks
+Weigh chicks before and after fledging
+Tracked survivorship of chicks  
 
 ### 5.	Existing data
 
@@ -57,26 +61,27 @@ In this section we will ask you to describe how you plan to collect samples, as 
 
 We will be using existing data from Burley 1986. 
 
-- Registration prior to creation of data: As of the date of submission of this research plan for preregistration, the data have not yet been collected, created, or realized. 
-
-- Registration prior to any human observation of the data: As of the date of submission, the data exist but have not yet been quantified, constructed, observed, or reported by anyone - including individuals that are not associated with the proposed study. Examples include museum specimens that have not been measured and data that have been collected by non-human collectors and are inaccessible.
-
-- Registration prior to accessing the data: As of the date of submission, the data exist, but have not been accessed by you or your collaborators. Commonly, this includes data that has been collected by another researcher or institution.
-
--	Registration prior to analysis of the data: As of the date of submission, the data exist and you have accessed it, though no analysis has been conducted related to the research plan (including calculation of summary statistics). A common situation for this scenario when a large dataset exists that is used for many different studies over time, or when a data set is randomly split into a sample for exploratory analyses, and the other section of data is reserved for later confirmatory data analysis.
-
 -	Registration following analysis of the data: As of the date of submission, you have accessed and analyzed some of the data relevant to the research plan. This includes preliminary analysis of variables, calculation of descriptive statistics, and observation of data distributions. Studies that fall into this category are ineligible for the Pre-Reg Challenge. Please contact us (prereg@cos.io) and we will be happy to help you.
  
 ### 6.	Explanation of existing data
 
 *6.1.	If you indicate that you will be using some data that already exist in this study, please describe the steps you have taken to assure that you are unaware of any patterns or summary statistics in the data. This may include an explanation of how access to the data has been limited, who has observed the data, or how you have avoided observing any analysis of the specific data you will use in your study. The purpose of this question is to assure that the line between confirmatory and exploratory analysis is clear.*  
 
-Data is from Burley 1986 paper. However, some information was not available, which brings into question our ability to reproduce the analyses.
+Data is from Burley 1986 paper. However, some information (like the age of the source populations, individual cohort information) was not available, which brings into question our ability to accurately reproduce the analyses.
 
 ### 7.	Data collection procedures.
 
 *7.1.	Please describe the process by which you will collect your data. If you are using human subjects, this should include the population from which you obtain subjects, recruitment efforts, payment for participation, how subjects will be selected for eligibility from the initial pool (e.g. inclusion and exclusion rules), and your study timeline. For studies that don’t include human subjects, include information about how you will collect samples, duration of data gathering efforts, source or location of samples, or batch numbers you will use.* 
 
+Parent sex determined by observation of behavior and netting them on the nest
+
+Number of sons and daughters per clutch --> remove chicks from the nest 2-5 weeks post-fledging and from the aviary, kept in cages until sex could be determined by plumage or adult behavior 
+
+Brood size determined by checking the nest daily for the number of eggs and chicks that hatched -- new chicks tagged shortly after hatching --> survival is monitored with these checks
+
+Captive population implies that the age of the males is known, females obtained as sub-adults so they have no prior reproductive experience
+
+Chicks are weighed pre- and post-fledging 
 
 
 ### 8.	Sample size
@@ -109,6 +114,7 @@ Measured variables:
   - Brood size --> used to calculate sex ratio
   - Age/experience of the parents
   - Survival of parents and chicks
+  - Pre- and post-fledging weights of chicks
 
 ### 11.	Manipulated variables
 
@@ -207,6 +213,7 @@ A confirmatory analysis plan must state up front which variables are predictors 
 
 *23.1.	How will you deal with incomplete or missing data?*
 
+Cry.
 
 
 ### 24.	Exploratory analysis (optional)
