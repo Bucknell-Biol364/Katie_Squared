@@ -1,0 +1,22 @@
+Questionable Research Practices
+Burley 1986 - Sex-Ratio Manipulation in Color-Banded Populations of Zebra Finches
+
+Because this study is based off a published paper and we don't have insight into Burley's decision makin, we cannot know for certain if any of these QRPs occurred.
+
+Cherry-picking
+  - Not reporting studies or variables that failed to reach statistical significance (SS)
+  - Not reporting covariates that failed to reach SS
+  - Reporting a subset of statistical models as the complete tested set
+  
+  
+
+HARKing
+  - Reporting an unexpected finding as having been predicted
+  
+P-hacking
+  - Rounding off a p-value or other quantity to meet a pre-specified threshold
+  - Deciding to exclude data points after first checking the impact on SS
+  - Collecting more data for a study after first inspecting whether results are SS
+  - Changing to another type of statistical analysis after the first analysis initially chosen failed to reach SS
+
+H
