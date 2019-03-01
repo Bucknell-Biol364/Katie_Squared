@@ -1,22 +1,31 @@
 Questionable Research Practices
 Burley 1986 - Sex-Ratio Manipulation in Color-Banded Populations of Zebra Finches
 
-Because this study is based off a published paper and we don't have insight into Burley's decision makin, we cannot know for certain if any of these QRPs occurred.
+Because this study is based off a published paper and we don't have insight into Burley's decision making, we cannot know for certain if any of these QRPs occurred.
 
 Cherry-picking
   - Not reporting studies or variables that failed to reach statistical significance (SS)
   - Not reporting covariates that failed to reach SS
   - Reporting a subset of statistical models as the complete tested set
   
-  
+  Burley reported non-significant results (offspring sex-ratio in BFE during the first 10 months; sex-ratio of brood losses in BME; offspring pre- and post-fledging weight and sex, maternal band color, brood size in BME and BFE; band color and offspring sex ratio for clutches where at least one egg failed to hatch; brood size and band color in BFE), suggesting that overall cherry-picking of the data did not occur. However, she did have some instances where she determined what number of data points would result in a significant effect.
 
 HARKing
   - Reporting an unexpected finding as having been predicted
+  
+  There is always a risk that this occurred, especially because she reported her own previous studies pairs bias offspring sex ratios in favor of the more attractive parents and that birds have a band color preference and these expectations may have colored her interpretation of these results, even unintentionally. However, we can't say definitively. A good way to avoid this would be to come up with predictions and hypotheses before the experiment is run.
   
 P-hacking
   - Rounding off a p-value or other quantity to meet a pre-specified threshold
   - Deciding to exclude data points after first checking the impact on SS
   - Collecting more data for a study after first inspecting whether results are SS
   - Changing to another type of statistical analysis after the first analysis initially chosen failed to reach SS
+  
+  Burley rounded off p-values to the third decimal place and for every test she ran, she reported r^2 and p-values, regardless of their significance. 
 
-H
+
+General improvements to the study:
+  - Make all of the data available in a supplementary document
+  - More clearly explain why, if applicable, some data points are excluded from analyses
+  - More clarity with sample sizes
+  - More clarity on the timeline of the study and reasoning behind methodological decisions
