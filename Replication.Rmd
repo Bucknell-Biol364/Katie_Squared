@@ -12,6 +12,9 @@ https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0037785
 
 Irreproducible text-book "knowledge": The effects of color bands on zebra finch fitness
 Wang et al 2018
+
+
+Part 1: Analysis of effects of band color on reproductive success from previous 8 studies
 Purpose:
   - To test for the effects of band color on reproductive success in captive zebra finches
 
@@ -20,18 +23,65 @@ Hypothesis:
 
 Methods:
   - Analyzed data from 8 studies on band color from their own lab, unpublished data from 3 other laboratories
-  - Modeled male and female fitness and fit band color as a random effect
-      Models 
-
-
+  - Used linear mixed-effect models to investigate reproductive success of all individuals involved in the 8 studies
+  - Modeled male and female fitness and fit band color, individual identity, aviary identity, experiment identity, and population identity as random effects
+  - Modeled male and female fitness and controlled for adult sex ratio within each aviary, duration of breeding season, and individuals inbreeding coefficient as fixed effects
+  - Included "attractiveness rank" of band color as a covariate to test whether previously stated non-neutral effects of band color were consistent with prior studies
+      
 Results:
   - Reproductive success varied in individuals rather than color band groups
   - Reproductive success significantly declined as inbreeding increased 
   - Reproductive success varied significantly with adult sex ratio
   - Reproductive success did not vary significantly with duration of breeding season
   - Reproductive success did not vary at all with band color
-  - Effect size of reproductive success exaggerated in smaller sample sizes but was not significantly different in larger sample sizes
-      - Suggested minimum sample size was 35 individuals (Burley max sample size = 26)
   
-Discussion:
-  - 
+
+
+Part 2: Analysis of effects of band color on sex ratios from unpublished replication study
+
+Purpose: 
+  - To replicate Burley et al 1986 directly and test for effects of red and green band color on sex ratio of offspring of captive zebra finches
+
+Hypothesis
+  - Leg bands increase sex ratio in favor of the percieved attractive mate (red males attractive to females and green males not attractive to females)
+
+Methods
+  - Obtained summarized data of offspring production gathered by Nikolaus von Englehardt and 3 collaborative labs. This work was part of von Englehardt's Ph.D thesis and was given freely for the authors of this paper to replicte analysis. 
+  - Experiment closely followed the design of Burley et al 1986
+  - Used mixed effect model with mean number of offspring as the dependent variable and aviary and population as random effects and "attractiveness rank" as a fixed effect
+
+Results
+  - Results did not support previous findings that band color infuences relative reproductive success of males
+  - Mixed-effect model with aviary and population as random effects showed that "attractiveness rank" was negatively related to reproductive success
+
+
+
+Part 3: Analysis of effect size from previous publications
+
+Purpose: 
+  - To test whether effect size varies with sample size. 
+
+Hypothesis
+  - Effects of band color on dependent variables will decrease as sample size increases
+
+Methods
+  - Extracted estimates of effect size of red and green banded males on dependent variables of 39 studies
+    - dependent variables included: male body mass, male dominance, approach times in a choice test, copulation rates, measures of parental effort, yolk hormone concentrations, offspring sex ratio
+  - Band color effects on these variables were then transformed using Cohen's D (a measure of effect size which indicates the standardized difference between means. Cohen's D uses the average of two groups as well as their pooled standard deviations to represent the effect size)
+
+Results
+  - Effect size was significantly related to sample size (P = 0.019)
+  - Effect size of reproductive success exaggerated in smaller sample sizes but was not significantly different in larger sample sizes (effect size reaches 0 at highest sample size)
+      - Suggested minimum sample size was 35 individuals (Burley max sample size = 26)
+  - Variations in effect size were not dependent on population ID or research group ID (which are often used as explanations for not confirming color band effects in puplished papers)
+  - All published estimates of one group (Burley 1982 or 1986 -the first to publish effect of band color on reproductive success) were statistically significant with an average power of 0.79
+    - Nonsignificant results are thus predicted for 4-5/22 tests and the likelihood of all 22 tests being significant is P = 0.002
+
+
+
+Discussion (Parts 1-3):
+  - Study found no evidence that band color is associated with male or female fitness, and that band color did not explain an observed variance in reproductive success
+  - Reproduction of previous studies is difficult because variables such as adult sex ratio and inbreeding coefficients of colonies were not reported (and this study found both to have significant effects on reproductive success)
+  - Previous studies reporting effects of band color on reproductive success are likely underreporting nonsignificant effects and may be reporting results of type 1 errors as significant findings. Additionaly, reported effects of band color on reproductive success may be due to small sample sizes (which this study found to exaggerate effect size)
+  
+
