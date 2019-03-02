@@ -1,0 +1,37 @@
+---
+title: "Replication"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+https://www.rug.nl/research/portal/files/2984800/c2.pdf
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0037785
+
+Irreproducible text-book "knowledge": The effects of color bands on zebra finch fitness
+Wang et al 2018
+Purpose:
+  - To test for the effects of band color on reproductive success in captive zebra finches
+
+Hypothesis:
+  - Colorful leg bands affect attractiveness of male and female zebra finches
+
+Methods:
+  - Analyzed data from 8 studies on band color from their own lab, unpublished data from 3 other laboratories
+  - Modeled male and female fitness and fit band color as a random effect
+      Models 
+
+
+Results:
+  - Reproductive success varied in individuals rather than color band groups
+  - Reproductive success significantly declined as inbreeding increased 
+  - Reproductive success varied significantly with adult sex ratio
+  - Reproductive success did not vary significantly with duration of breeding season
+  - Reproductive success did not vary at all with band color
+  - Effect size of reproductive success exaggerated in smaller sample sizes but was not significantly different in larger sample sizes
+      - Suggested minimum sample size was 35 individuals (Burley max sample size = 26)
+  
+Discussion:
+  - 
