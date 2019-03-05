@@ -15,42 +15,33 @@ Study:
 Difficult to reproduce because...
   - No supplemental data file with raw numbers
   - Lack of clarity with sample sizes and what data points 
+  - No information about adult sex ratio and inbreeding coefficients of captive colonies, both of which affect reproductive success
   
 
 Irreproducible text-book "knowledge": The effects of color bands on zebra finch fitness
 Wang et al 2018
 
 Disagreement between literature and experimental evidence
-
 Analysis of effects of band color on reproductive success from previous 8 studies
   - Analyzed data from 8 studies on band color from their own lab, unpublished data from 3 other laboratories
   - Used linear mixed-effect models to investigate reproductive success of all individuals involved in the 8 studies
       - Modeled male and female fitness and fit band color, individual identity, aviary identity, experiment identity, and population identity as random effects
       - Controlled for adult sex ratio within each aviary, duration of breeding season, and individuals inbreeding coefficient as fixed effects
   - Reproductive success varied significantly in individuals with inbreeding and adult sex ratio, but not with duration of breeding season or band color
-
 Analysis of effects of band color on sex ratios from unpublished replication study
   - Obtained summarized data of offspring production gathered by Nikolaus von Englehardt and 3 collaborative labs, who did an experiment that closely followed the design of Burley et al 1986
   - Used mixed effect model with mean number of offspring as the dependent variable and aviary and population as random effects and "attractiveness rank" as a fixed effect
   - Found no support for 
   - Results did not support previous findings that band color infuences relative reproductive success of males
-
 Analysis of effect size from previous publications
   - Extracted estimates of effect size of red and green banded males on dependent variables of 39 studies
     - Dependent variables included: male body mass, male dominance, approach times in a choice test, copulation rates, measures of parental effort, yolk hormone concentrations, offspring sex ratio
   - Band color effects on these variables were then transformed using Cohen's D (a measure of effect size which indicates the standardized difference between means. Cohen's D uses the average of two groups as well as their pooled standard deviations to represent the effect size)
-
-Results:
-  - Effect size was significantly related to sample size (P = 0.019)
-  - Effect size of reproductive success exaggerated in smaller sample sizes but was not significantly different in larger sample sizes (effect size reaches 0 at highest sample size)
-      - Suggested minimum sample size was 35 individuals (Burley max sample size = 26)
-  - Variations in effect size were not dependent on population ID or research group ID (which are often used as explanations for not confirming color band effects in puplished papers)
-  - All published estimates of one group (Burley 1982 or 1986 -the first to publish effect of band color on reproductive success) were statistically significant with an average power of 0.79
-    - Nonsignificant results are thus predicted for 4-5/22 tests and the likelihood of all 22 tests being significant is P = 0.002
+  - Effect size significantly related to sample size and was exaggerated in smaller sample sizes
+     - Suggested minimum sample size = 35 individuals (Burley max sample size = 26)
 
 
 Key Points:
-  - Study found no evidence that band color is associated with male or female fitness, and that band color did not explain an observed variance in reproductive success
-  - Reproduction of previous studies is difficult because variables such as adult sex ratio and inbreeding coefficients of colonies were not reported (and this study found both to have significant effects on reproductive success)
+  - Despite the literature, no evidence that band color is associated with male or female fitness or explains variance in reproductive success
   - Previous studies reporting effects of band color on reproductive success are likely underreporting nonsignificant effects and may be reporting results of type 1 errors as significant findings. Additionally, reported effects of band color on reproductive success may be due to small sample sizes (which this study found to exaggerate effect size)
-  - Prevalence of support for this color band hypothesis despite experimental evidence otherwise suggests the existence of a publishing bias, where nonsignifant findings either do not make it into publication or are published in lower tier journals
+  - Prevalence of support for this color band hypothesis despite experimental evidence otherwise suggests the existence of a publishing bias
