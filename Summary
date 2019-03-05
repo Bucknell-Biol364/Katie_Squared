@@ -2,6 +2,8 @@ Sex-Ratio Manipulation in Color Banded Populations of Zebra Finches
 Nancy Burley
 Evolution 1986
 
+Background: Studies of captive and wild birds often use color bands to mark subjects. Questions regarding whether band color influences mate preference and subsequent life history processes and rates should be studied and results integrated into banding procedures.
+
 Study:
   Hypothesis: parents bias the sex ratio of their clutches to produce more of the offspring that they expect to be more attractive
     Alt hypothesis 1: sex ratio of clutches change with parental age and experience
@@ -21,7 +23,12 @@ Difficult to reproduce because...
 Irreproducible text-book "knowledge": The effects of color bands on zebra finch fitness
 Wang et al 2018
 
+7 researchers form the Department of Behavioural Ecology and Evolutionary Genetics, Max Planck Institute for Ornithology, Seewiesen, Germany
+  - Conducted analysis of their previous experiments as well as a re-analysis of replication study of Burley 1986, and 39 papers that support Burley to varying extents 
+
 Disagreement between literature and experimental evidence
+
+
 Analysis of effects of band color on reproductive success from previous 8 studies
   - Analyzed data from 8 studies on band color from their own lab, unpublished data from 3 other laboratories
   - Used linear mixed-effect models to investigate reproductive success of all individuals involved in the 8 studies
@@ -33,6 +40,8 @@ Analysis of effects of band color on sex ratios from unpublished replication stu
   - Used mixed effect model with mean number of offspring as the dependent variable and aviary and population as random effects and "attractiveness rank" as a fixed effect
   - Found no support for 
   - Results did not support previous findings that band color infuences relative reproductive success of males
+
+
 Analysis of effect size from previous publications
   - Extracted estimates of effect size of red and green banded males on dependent variables of 39 studies
     - Dependent variables included: male body mass, male dominance, approach times in a choice test, copulation rates, measures of parental effort, yolk hormone concentrations, offspring sex ratio
