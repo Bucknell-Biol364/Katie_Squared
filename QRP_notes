@@ -1,0 +1,14 @@
+Questionable Research Practices from Fraser et al.
+
+QRP 1: p hacking (a set of activities including checking the statistical significance of results before deciding whtehr to collect more data, stopping data collection early bc results reach statistical significance, excluding outliers bc doing so would impact stat significance, adjusting statistical models such as exluding covariables based on the resulting strenght of the effect of interest, rounding p values to meet significance threshold) 
+...small clutch sizes were excluded as well as some of the female data from one of the figures
+
+did she use pseudoreplication? how did she treat clutches and batches of chicks??
+
+QRP 2: cherry picking (failing to report dependent or response variables or relationships that did not reach statistical significance or other threshold and/or failing to report conditions or treatments that did not reach statistical significance or other threshold)
+
+QRP 3: harking "hypothesizing after results are known" (presenting ad hoc and/or unexpected findings as though they had been predicted all along and presenting exploratory work as though it was confirmatory hypothesis testing)....not sure if she did this or if it would even be possible to determine but she did rely heavily on citing her own work..and I believe she may have used some unpublished data..not that this is bad in general but it depends on how she was using it.
+
+Solutions to QRP's
+
+1. preregistration: specifies a researchers hypotheses, decisiions concerning sample size, data exclusion criteria, and proposed analysis
